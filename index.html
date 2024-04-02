@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akansha Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6e0bc93764.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/name_logo.jpg" class="name_logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I am <span>Akansha Sharma</span><br> Virginia, USA</h1>
+        </div>
+    </div>
+</div> 
+
+<!-- ------about--------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/software-engineer.png">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p style="text-align:justify;">
+                    In pursuit of excellence, I am a dedicated Software Engineer with a Master of Science in Information Systems, 
+                    specializing in Information Security & Intelligence from Ferris State University (MISI, Dec. 2023). 
+                    Equipped with a robust foundation in data management, security principles, and various technologies, 
+                    I am adept at developing end-to-end data analytics solutions. 
+                    Proficient in multiple programming languages, including Python, JavaScript, and SQL, 
+                    I possess hands-on experience in areas such as data mining, cloud computing, and object-oriented design. 
+                    With a proactive attitude and strong problem-solving abilities, 
+                    I am committed to delivering high-quality solutions while collaborating effectively with cross-functional teams.
+                </p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Management</span><br>SQL Server, MySQL, PostgreSQL, MongoDB</li>
+                        <li><span>Data Analysis</span><br>Tableau, Power BI, Excel</li>
+                        <li><span>Programming Languages <br></span>Python, JavaScript, SQL<br>Visual Studio Code, VS-Code, PyCharm, Jupyter Notebooks <br>Operating Systems: Windows, Linux</li>
+                        <li><span>Web Technologies</span><br>HTML5, CSS3, ReactJS, Angular, REST API</li>
+                        <li><span>Cloud Computing</span><br>AWS, Azure, Google Cloud Platform (GCP)</li>
+                        <li><span>Automation Testing</span><br>Selenium, QTP/UFT, TestNG, JUnit</li>
+                        <li><span>Agile Methodologies</span><br>JIRA, TFS, Azure Boards, Trello, Agile Scrum</li>
+                        <li><span>Communication Skills</span><br>Microsoft Outlook, Zoom</li>
+                        <li><span>Problem-Solving Abilities</span><br>GitHub</li>
+                        <li><span>Team Collaboration</span><br>Microsoft Teams, Google Workspace, GitHub</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2023</span><br><b>Master of Science in Information Systems</b><br>Specialization: Information Security & Intelligence, GPA: 3.64<br>Ferris State University, Michigan (USA) <br><br><b>Coursework:</b> Data Management & Security, Business Intelligence, Information Systems Strategy, Geographic Information Systems (GIS), Information Security/Assurance, Governance Risk and Compliance</li>
+                        <br>
+                        <li><span>2006 - 2010</span><br><b>Bachelor in Engineering</b><br>Specialization: Mechanical Engineering<br>University of Technology of Madhya Pradesh (India)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Apr. 2016 - Oct. 2021 ~ Location: Hyderabad, India</span><br><b>Job Title: R&D Member of Technical Staff - Product Test (Software Tester)</b><br>Company: AVEVA Solutions India LLP<br>Responsibilities: Test Case Creation, Test Methodologies, Documentation, Automation Testing, Regression Testing, Bug Tracking, Agile Methodologies, Scrum, Product Testing, Software Development Life Cycle (SDLC)<br><br>Tools/Technologies: C#, VBA, ASP.NET, Application Lifecycle Management (ALM), Unified Functional Test (UFT), HP QuickTest Pro (QTP), Microsoft Team Foundation Server (TFS), Azure Boards, Excel, Test Metrics Reporting, Git, GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------services---->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h2>Software Testing</h2>
+                <p>cdshgcvsjcsjgcjwcvjwcvjsdcj</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Analysis</h2>
+                <p>cdshgcvsjcsjgcjwcvjwcvjsdcj</p>
+                <a href="#">Learn more</a>
+            </div>           
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Development</h2>
+                <p>cdshgcvsjcsjgcjwcvjwcvjsdcj</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------Portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/music.jpg">
+                <div class="layer">
+                    <h3>Database Application Using Windows GUI</h3>
+                    <p>Developed a feature-rich Windows Music application using C# and ASP.NET framework in Visual Studio, seamlessly integrating MySQL for database design and SQL Queries creation, MySQL Workbench for robust database management.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/business-data-analysis.jpg">
+                <div class="layer">
+                    <h3>Building a T20 Dream Team with Data Analytics</h3>
+                    <p>Developed an end-to-end data analytics solution, incorporating Extract-Transform-Load (ETL) processes and data visualization components, utilizing HTML, JavaScript, Python, Power BI</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+                
+            <div class="work">
+                <img src="images/webApp.jpg">
+                <div class="layer">
+                    <h3>Self Portfolio</h3>
+                    <p>Created a personal portfolio website using HTML, CSS, and JavaScript, showcasing Front-End web development skills and the ability to design and implement responsive and interactive user interfaces.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>        
+    </div>
+</div>
+
+<!-----------contact--------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>akansha@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i>+1(231) 654-9870</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/akansha_Resume.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your valid email id" required>
+                    <textarea name="Message" rows="10" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Akansha Sharma, project made as an assignment for Coursework at <i class="fa-solid fa-graduation-cap"></i> Ferris State University <i class="fa-solid fa-graduation-cap"></i></p>
+    </div>
+</div>
+
+<script>
+
+/*--------about-----------*/
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby_8UFqRPgi1AQ4_rFmbqdSYrQCRwHRcnSDo4lnkz1RjfbSROoQSJ5yNn2rcnHm1EzQBg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
